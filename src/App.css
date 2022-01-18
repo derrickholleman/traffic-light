@@ -26,3 +26,10 @@
 .green {
   background-color: green;
 }
+
+@media screen and (max-width: 481px) {
+  .light {
+    width: 100px;
+    height: 100px;
+  }
+}
