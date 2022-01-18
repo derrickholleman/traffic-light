@@ -1,3 +1,28 @@
 .App {
   text-align: center;
+  display: grid;
+  place-items: center center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.light {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
 }
